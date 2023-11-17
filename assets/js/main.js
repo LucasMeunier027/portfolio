@@ -49,7 +49,7 @@ const sendEmail = (e) =>{
    emailjs.sendForm('service_qayfyqq','template_swuitrv','#contact-form','L-ytqOAvk6YDcA0xY')
       .then(() =>{
          // Show sent message
-         contactMessage.textContent = 'Message sent successfully ✅'
+         contactMessage.textContent = 'Message envoyé ✅'
 
          // Remove message after five seconds
          setTimeout(() =>{
@@ -61,7 +61,7 @@ const sendEmail = (e) =>{
 
       }, () =>{
          // Show error message
-         contactMessage.textContent = 'Message not sent (service error) ❌'
+         contactMessage.textContent = 'Message non envoyé (erreur système) ❌'
       })
 }
 
