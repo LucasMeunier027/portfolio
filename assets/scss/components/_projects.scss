@@ -4,7 +4,7 @@
    transition: background-color .4s; /* for dark mode */
 
    &__container{
-      row-gap: 2rem;
+      row-gap: 2rem
    }
    &__card{
       padding: 1rem 1rem 2rem;
@@ -59,7 +59,7 @@
       font-size: var(--small-font-size);
       font-weight: var(--font-medium);
       transition: color .4s;
-      
+
       & i{
          font-size: 1rem;
          color: var(--title-color);
